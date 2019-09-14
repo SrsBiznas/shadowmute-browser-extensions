@@ -1,0 +1,27 @@
+{
+  "name": "shadowmute-browser-extensions",
+  "version": "0.1.0.1",
+  "description": "Browser extensions for Shadowmute Identity-as-a-Service",
+  "main": "index.js",
+  "repository": "https://github.com/SrsBiznas/shadowmute-browser-extensions",
+  "author": "Cameron Hotchkies <cameron@srs.bizn.as>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-merge-json": "^1.3.1",
+    "gulp-replace": "^1.0.0",
+    "through2": "^3.0.1"
+  },
+  "scripts": {
+    "firefox": "gulp firefox",
+    "chrome": "gulp chrome",
+    "release": "rm -rf ./dist && CLIENT_ID=$FIREFOX_CLIENT_ID AUTH_SERVER=https://shadowmute.com API_SERVER=https://api.shadowmute.com ENV=prod gulp firefox && CLIENT_ID=$CHROME_CLIENT_ID AUTH_SERVER=https://shadowmute.com API_SERVER=https://api.shadowmute.com ENV=prod gulp chrome",
+    "lint": "eslint src"
+  }
+}
