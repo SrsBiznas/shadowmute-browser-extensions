@@ -1,0 +1,14 @@
+{
+  "background": {
+    "persistent": false
+  },
+
+  "permissions": [
+    "*://localhost/*",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "identity",
+    "clipboardWrite"
+  ]
+}

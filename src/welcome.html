@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      button {
+        height: 40px;
+        width: 120px;
+        outline: none;
+      }
+      @font-face {
+        font-family: BodyFont;
+        src: url("fonts/Gidole-Regular.ttf");
+      }
+      @font-face {
+        font-family: HeaderFont;
+        src: url("fonts/SpecialElite-Regular.ttf");
+      }
+      body {
+        font-family: BodyFont;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column
+      }
+      .header {
+        font-family: HeaderFont;
+        font-size: 4em;
+        background-color: Indigo;
+        color: White;
+        padding: .25em;
+        padding-left: .5em;
+        padding-top: .4em;
+      }
+      .title {
+        font-size: 2em;
+        font-weight: 200;
+        margin-top: .5em;
+        margin-bottom: .5em;
+      }
+      .buffered {
+        padding: 1em;
+      }
+      .vertical {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="header">
+      <img src="images/sm_ext48.png" /> Shadowmute.
+    </span>
+    <br />
+    <div class="buffered">
+      <div class="vertical">
+        <span class="title">
+          Thanks for installing the Shadowmute Browser extension
+        </span>
+        <span>
+          Please note, to use this extension, a functioning Shadowmute
+          account is required. To register for a Shadowmute account, please
+          visit <a href="https://shadowmute.com/register">shadowmute.com</a>.
+          <br /><br />
+          With this extension you can:
+        </span>
+        <ul>
+          <li>Create a mailbox</li>
+          <li>Log out</li>
+        </ul>
+        <span class="title">
+          Limitations
+        </span>
+        <span>
+          To protect your privacy, the Shadowmute browser extension
+          only has limited functionality to create new mailboxes.
+          <br />
+          Viewing messages for your mailboxes requires you to log in to
+          the main site.
+        </span>
+
+        <span class="title">
+            Support
+        </span>
+        <span>
+          If you have a problem with this extension, please email <a href="mailto:support@shadowmute.com">Support</a>.
+          Alternatively, contacting via <a href="https://twitter.com/ShadowmuteHQ">twitter</a> may be faster.
+        </span>
+      </div>
+    </div>
+
+  </body>
+</html>

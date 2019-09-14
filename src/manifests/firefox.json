@@ -1,0 +1,9 @@
+{
+  "permissions": [
+    "*://localhost/*",
+    "activeTab",
+    "storage",
+    "identity",
+    "clipboardWrite"
+  ]
+}
