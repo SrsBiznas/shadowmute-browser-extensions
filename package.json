@@ -1,6 +1,6 @@
 {
   "name": "shadowmute-browser-extensions",
-  "version": "0.1.0.1",
+  "version": "0.2.0",
   "description": "Browser extensions for Shadowmute Identity-as-a-Service",
   "main": "index.js",
   "repository": "https://github.com/SrsBiznas/shadowmute-browser-extensions",
