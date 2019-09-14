@@ -31,3 +31,16 @@ The following commands are supported:
 ## License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](./LICENSE) file for details
+
+## Acknowledgements
+
+### Fonts
+
+The following fonts are included in this browser extension:
+
+* Gidole
+  * http://gidole.github.io/
+  * https://github.com/larsenwork/Gidole
+* SpecialElite
+  * http://www.astigmatic.com
+  * https://fonts.google.com/specimen/Special+Elite
